@@ -1,0 +1,14 @@
+# printing the day of the routine
+print("Thursday")
+# print waking up and getting ready
+print(" Wake up at 7:00 AM and get ready by 7:15")
+# print bus time
+print( "Leave house at 7:29 to catch bus at 7:30")
+# print after school
+print(" Catch bus from school to cannington station")
+# print badminton
+print(" Go to badminton practice from 3:45 to 5:00 PM and then catch the bus home")
+# print guitar
+print("Do guitar at 6:30")
+# print tutor
+print("Do tution of math")
