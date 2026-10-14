@@ -1,0 +1,30 @@
+#school day planner
+print(" ************* School day planner ************")
+print(" Answer 3 questions and I will plan your day")
+day   = input(" What day is it{Monday to Sunday}").strip().capitalize()
+weather   = input(" What is the waether like? { sunny / cludy / rainy}").strip().lower()
+homework = input(" Is your homework done? { Yes or No}").strip().lower()
+print()
+print(f"=== Your planner for {day} ===") 
+print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+
+# if elif else
+if day in ("Saturday", "Sunday"):
+    print("Day type  : Weekend - enjoy your life. you might want to do some of your hobbies")
+elif day == "Monday":
+    print(" Day type: First day back to waking up it may be boring but do not give up")
+elif day == "Friday":
+    print(" Day type: Last day of weekdays woohooo!  Watch a movie with your family at night if you want to")
+elif day in  ("Tuesday", "Wednesday", "Friday"):
+    print(" Do not worry it will be over soon but focus in class")
+else:
+    print(" Day has not been entered correctly { Check spelling}")
+    # Weather with AND operator
+if weather == "sunny" and homework == "yes":
+    print(" Go outside and play sports and relax")
+    # OR operator
+if weather == "rainy" or weather == "cloudy":
+    print(" Take an umbrella")
+# NOT  operator
+if not (homework == "yes"):
+    print(" Homework  : Not done yet. Finish it before anything")
