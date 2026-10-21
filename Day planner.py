@@ -28,3 +28,17 @@ if weather == "rainy" or weather == "cloudy":
 # NOT  operator
 if not (homework == "yes"):
     print(" Homework  : Not done yet. Finish it before anything")
+#AND + OR + IF
+if weather == "rainy" and not (homework == "yes"):
+    print(" The best thing to do is finish the homework and relax")
+elif weather == "sunny" and homework == "yes" and not (day in("Saturday", "Friday")):
+    print(" You are ready for school so relax")
+elif day in ("Saturday", "Sunday") and weather == "sunny":
+    print(" Go outside with family or frieds")
+elif day in ("Sunday") and homework == "yes":
+    print(" Sunday nights are always sad but you are prepared")
+else:
+    print(" Take it step by step, you will get there ")
+
+    print()
+print(" Plan complete! ")
